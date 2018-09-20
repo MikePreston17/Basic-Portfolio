@@ -1,0 +1,75 @@
+header {
+    color: #fff;
+    border-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+/* Background pattern from Toptal Subtle Patterns */
+body {
+    background-image: url("backgrounds/polonez_car_@2X.png");
+}
+
+h1 {
+    background-color: #4aaaa5;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /* color: #fff;
+  border-color: #ccc;
+  text-align: center;
+  padding: 10px; */
+
+    /* width: 15%; */
+    /* width: 0 auto;
+  margin: 0 auto; */
+}
+
+h2 {
+    color: #4aaaa5
+}
+
+div {
+    /* float: left;
+    padding: 10px; */
+    /* float: left; */
+
+    /* color: rgb(216, 9, 43); */
+
+    border-color: blue 3px
+}
+
+p {
+    color: #777;
+    /* used for paragraphs and all text besides the headings */
+}
+
+footer {
+    background-color: #666;
+    float: clear;
+}
+
+
+nav {
+    width: 100%;
+    border-color: #ddd;
+}
+
+input {
+    line-height: 150%;
+    height: 75%;
+}
+
+/* Use on all 3 pages */
+#main-content {
+    border-color: #ddd;
+    background-color: #fff;
+}
+
+.container {
+
+    /*keeping this, as it will float 'center'*/
+    border-color: #ccc;
+    margin: auto;
+    width: 960px;
+    /* border: 10px solid blue; */
+}

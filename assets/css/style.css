@@ -15,8 +15,7 @@ body {
     margin: 0px;
 }
 
-/*Headers*/
-/* float: left; */
+
 h1 {
     background-color: #4aaaa5;
     color: #fff;
@@ -25,57 +24,6 @@ h1 {
     margin: 0px;
     height: 100%;
     padding: 35px;
-}
-
-h1.accent {
-    background-color: #fff;
-    padding-top: 0px;
-    padding-left: 0px;
-    color: #4aaaa5;
-
-    margin-bottom: 35px;
-    border-bottom: 2px solid #ccc;
-}
-
-/*Menu*/
-.menu * {
-    background: initial;
-    border: 0px;
-    border-left: 2px solid #ccc;
-}
-
-.menu *:first-child {
-    border: 0px;
-}
-
-/*Div Land*/
-div {
-    /* border: blue 3px double; */
-    color: #777;
-}
-
-div.card {
-    box-sizing: border-box;
-    background-color: #fff;
-    margin-top: 32px;
-    padding: 30px;
-}
-
-div.menu {
-    float: right;
-    /* border: 1px solid green; */
-}
-
-div.menu * {
-    float: left;
-    /* border: 1px solid orangered; */
-}
-
-/*Section*/
-
-section.left {
-    float: left;
-    border: rgba(251, 255, 0, 0.616) 3px solid;
 }
 
 section {
@@ -87,6 +35,14 @@ section {
 p {
     /* used for paragraphs and all text besides the headings */
     color: #777;
+}
+
+input,
+textarea {
+    /* border: solid green; */
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
 }
 
 footer {
@@ -104,13 +60,55 @@ input {
     height: 75%;
 }
 
-/* Use on all 3 pages */
-.main {
+div {
+    /* border: blue 3px double; */
+    color: #777;
+}
+
+section.left {
+    float: left;
+    border: rgba(251, 255, 0, 0.616) 3px solid;
+}
+
+div.card {
+    box-sizing: border-box;
     background-color: #fff;
+    margin-top: 32px;
+    padding: 30px;
+}
+
+div.menu {
+    float: right;
+    /* border: 1px solid green; */
+}
+
+h1.accent {
+    background-color: #fff;
+    padding-top: 0px;
+    padding-left: 0px;
+    color: #4aaaa5;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #ccc;
 }
 
 img.bounded {
     height: 200px;
+}
+
+/*Menu*/
+.menu * {
+    background: initial;
+    border: 0px;
+    border-left: 2px solid #ccc;
+}
+
+.menu *:first-child {
+    border: 0px;
+}
+
+/* Use on all 3 pages */
+.main {
+    background-color: #fff;
 }
 
 .container {
@@ -126,10 +124,10 @@ img.bounded {
 
 .link {
     color: #666;
+    padding: 10px;
 }
 
 /* #main-bio {} */
-
 /* div.right {
   clear: both;
   float: right;

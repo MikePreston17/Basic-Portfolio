@@ -50,10 +50,10 @@ footer {
     float: clear;
 }
 
-nav {
+/* nav {
     width: 100%;
     border-color: #ddd;
-}
+} */
 
 input {
     line-height: 150%;
@@ -65,11 +65,6 @@ div {
     color: #777;
 }
 
-section.left {
-    float: left;
-    border: rgba(251, 255, 0, 0.616) 3px solid;
-}
-
 div.card {
     box-sizing: border-box;
     background-color: #fff;
@@ -79,7 +74,13 @@ div.card {
 
 div.menu {
     float: right;
-    /* border: 1px solid green; */
+    border: hotpink 3px solid;
+    float: right;
+}
+
+section.left {
+    float: left;
+    border: rgba(251, 255, 0, 0.616) 3px solid;
 }
 
 h1.accent {
@@ -93,6 +94,9 @@ h1.accent {
 
 img.bounded {
     height: 200px;
+    float: left;
+    /* border: orangered 2px solid; */
+    margin: 5px;
 }
 
 /*Menu*/
@@ -106,12 +110,23 @@ img.bounded {
     border: 0px;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* Use on all 3 pages */
 .main {
     background-color: #fff;
 }
 
 .container {
+    border: hotpink solid dotted;
     position: relative;
     margin: auto;
     /*keeping this, as it will float 'center'*/
@@ -125,6 +140,11 @@ img.bounded {
 .link {
     color: #666;
     padding: 10px;
+}
+
+.ninja {
+    visibility: hidden;
+    color: black;
 }
 
 /* #main-bio {} */
